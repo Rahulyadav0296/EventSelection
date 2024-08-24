@@ -1,0 +1,24 @@
+.select-button {
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: #129712; /* Brighter red for a more modern look */
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.select-button:hover {
+  background-color: #e60000; /* Darker red for hover */
+  color: #ffffff;
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+.select-button:active {
+  background-color: #cc0000; /* Darker red for active state */
+  transform: scale(0.98); /* Slightly shrink on click for a click effect */
+}
